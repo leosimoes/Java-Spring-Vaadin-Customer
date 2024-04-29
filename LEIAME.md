@@ -1,6 +1,7 @@
 # Spring and Vaadin - Customer
 Autor: Leonardo Simões
 
+
 ## Etapas do desenvolvimento
 As etapas de desenvolvimento do projeto foram:
 
@@ -49,6 +50,19 @@ Obs.:
 - correspondente a tabela de nome `CUSTOMERS`.
 
 ![Image-04-CustomerEntity](images/Image-04-CustomerEntity.png)
+
+5. Criar interface `CustomerRepository`:
+- no pacote `repositories`;
+- anotada com `@Repository`;
+- extends `JPARepository`;
+- com métodos:
+  * `Optional<CustomerEntity> findById(UUID id);`
+  * `Optional<CustomerEntity> findById(UUID id);`
+  * `List<CustomerEntity> findByFirstName(String firstName);`
+  * `List<CustomerEntity> findByLastName(String lastName);`
+  * `List<CustomerEntity> findByFirstNameAndLastName(String firstName, String lastName);`
+
+![Image-05-CustomerRepository](images/Image-05-CustomerRepository.png)
 
 
 ## Referências
