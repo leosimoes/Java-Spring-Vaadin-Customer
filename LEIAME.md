@@ -34,14 +34,21 @@ spring.h2.console.enabled=true
 spring.h2.console.path=/h2
 ```
 
-![Image-03-Terminal-Run](images/Image-02-Terminal-Run.png)
+![Image-02-Terminal-Run](images/Image-02-Terminal-Run.png)
 
 - testar acesso ao console do H2 em `http://localhost:8080/h2/`:
 
-![Image-04-B-ConsoleH2](images/Image-03-B-ConsoleH2.png)
+![Image-03-B-ConsoleH2](images/Image-03-B-ConsoleH2.png)
 
 Obs.:
 - Por padrão, o usename seria "sa" e a senha "", e o console do h2 estaria desativado.
+
+4. Criar classe `CustomerEntity`:
+- no pacote `entities`;
+- com atributos UUID id, String firstName, String lastName;
+- correspondente a tabela de nome `CUSTOMERS`.
+
+![Image-04-CustomerEntity](images/Image-04-CustomerEntity.png)
 
 
 ## Referências
