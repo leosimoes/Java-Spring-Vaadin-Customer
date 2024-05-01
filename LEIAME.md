@@ -64,6 +64,14 @@ Obs.:
 
 ![Image-05-CustomerRepository](images/Image-05-CustomerRepository.png)
 
+6. Criar classe `MainView`:
+- no pacote `views`;
+- anotada com `@Route("/customers")`;
+- extends `VerticalLayout`;
+- com um construtor anotado com `@Autowired` com um parâmetro (repository) e personalizar a tela dentro dele.
+
+![Image-06-Screen-01-Create](images/Image-06-Screen-01-Create.png)
+
 
 ## Referências
 Spring - Guides - Criando UI CRUD com Vaadin:
