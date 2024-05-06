@@ -66,11 +66,13 @@ Note:
 
 6. Create `MainView` class:
 - in the `views` package;
-- annotated with `@Route("/customers")`;
+- annotated with `@Route("customers")`;
 - extends `VerticalLayout`;
 - with a constructor annotated with `@Autowired` with a parameter (repository) and customize the screen inside it.
 
 ![Image-06-Screen-01-Create](images/Image-06-Screen-01-Create.png)
+
+![Image-07-Screen-02-Create-Read](images/Image-07-Screen-02-Create-Read.png)
 
 
 ## References

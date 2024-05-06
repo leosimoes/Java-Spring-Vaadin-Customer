@@ -66,11 +66,13 @@ Obs.:
 
 6. Criar classe `MainView`:
 - no pacote `views`;
-- anotada com `@Route("/customers")`;
+- anotada com `@Route("customers")`;
 - extends `VerticalLayout`;
 - com um construtor anotado com `@Autowired` com um parâmetro (repository) e personalizar a tela dentro dele.
 
 ![Image-06-Screen-01-Create](images/Image-06-Screen-01-Create.png)
+
+![Image-07-Screen-02-Create-Read](images/Image-07-Screen-02-Create-Read.png)
 
 
 ## Referências
